@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1648,8 +1648,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tilemap1_66: -1257034119
-      Tilemap1_68: 512089884
       Tilemap1_49: 566102066
       Tilemap1_24: -430836619
       Tilemap1_28: 1984894834
@@ -1709,18 +1707,20 @@ TextureImporter:
       Tilemap1_50: 634111871
       Tilemap1_41: 1386507640
       Tilemap1_12: -410477764
-      Tilemap1_27: -1032918645
+      Tilemap1_66: -1257034119
       Tilemap1_1: 1583304411
-      Tilemap1_62: 253291222
+      Tilemap1_27: -1032918645
       Tilemap1_29: -1137977112
       Tilemap1_57: -1534915593
+      Tilemap1_68: 512089884
       Tilemap1_4: 1607531697
       Tilemap1_9: 1614309732
-      Tilemap1_44: 1851042531
       Tilemap1_33: -909737184
       Tilemap1_63: 644822187
+      Tilemap1_62: 253291222
       Tilemap1_37: 1183083856
       Tilemap1_3: -1674553774
+      Tilemap1_44: 1851042531
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

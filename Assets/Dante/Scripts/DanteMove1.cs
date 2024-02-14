@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class DanteMove1 : MonoBehaviour
 {
     [SerializeField]
     private Rigidbody2D RB2D;
     //con esto accedemos al RigidBody para poder alterar las cordenadas, sumandole o restandole
-    private float movespeed = 10;
+    private float movespeed = 5;
     //obviamente la velocidad de movimiento del personaje que por gusto propio lo dejo en privado
-    private float JumpSpeed = 10;
+    private float JumpSpeed = 5;
     private float DoubleJump = 0;
     //Un contador para tener un doble salto pero si nos deja a futuro lo puedo quitar
     [SerializeField]
@@ -17,7 +18,7 @@ public class DanteMove1 : MonoBehaviour
     [SerializeField]
     private Animator animator;
     //este accede al sprite renderer y al animador respectivamente permitiendonos controlar las animaciones a traves de condiciones (Booleanos)
-
+    private int numLayer = 6;
     void Start()
     {
 
@@ -61,7 +62,7 @@ public class DanteMove1 : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.layer == numLayer)
         {
             animator.SetBool("IsJumping", false);
             DoubleJump = 0;
