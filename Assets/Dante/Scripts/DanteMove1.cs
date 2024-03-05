@@ -19,6 +19,7 @@ public class DanteMove1 : MonoBehaviour
     private Animator animator;
     //este accede al sprite renderer y al animador respectivamente permitiendonos controlar las animaciones a traves de condiciones (Booleanos)
     private int numLayer = 6;
+    public int lifePoints = 10;
     void Start()
     {
 
