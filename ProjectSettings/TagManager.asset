@@ -13,7 +13,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Trap
   - 
   - 
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: ForeGround
     uniqueID: 4163050669
+    locked: 0
+  - name: Trap
+    uniqueID: 605162303
     locked: 0
