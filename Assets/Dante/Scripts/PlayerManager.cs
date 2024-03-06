@@ -14,6 +14,7 @@ public class PlayerManager : MonoBehaviour
     SpriteRenderer sprite;
     [SerializeField]
     private Transform respawnPosition;
+    public float healthTimerC = 0.5f;
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -49,14 +50,14 @@ public class PlayerManager : MonoBehaviour
         }
         if (collision.gameObject.tag == "Heal")
         {
-            if (healthTimer > 0)
+            if (healthTimerC > 0)
             {
-                healthTimer -= Time.deltaTime;
+                healthTimerC -= Time.deltaTime;
             }
-            else if (healthTimer < 9 && isAlive)
+            else if (healthTimerC < 9 && isAlive)
             {
                 healthPoints += 1;
-                healthTimer = 0.5f;
+                healthTimerC = 0.5f;
             }
         }
     }
