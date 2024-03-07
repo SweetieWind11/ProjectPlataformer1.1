@@ -20,7 +20,7 @@ public class PlayerManager : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R) && isAlive == false)
@@ -54,7 +54,7 @@ public class PlayerManager : MonoBehaviour
             {
                 healthTimerC -= Time.deltaTime;
             }
-            else if (healthTimerC < 9 && isAlive)
+            else if (healthTimerC < 9 && isAlive) //Cambiar healthTimerC por HealthPoints
             {
                 healthPoints += 1;
                 healthTimerC = 0.5f;
