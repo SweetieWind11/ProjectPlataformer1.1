@@ -1,0 +1,1884 @@
+fileFormatVersion: 2
+guid: 21c04c0da3c314341a549181ec3d6731
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DemonSpiderIdle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a534128aa67d95469e51128e1e7af98
+      internalID: 140218084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9151614398c15e04bbf1097ae1c3ee71
+      internalID: -1894473051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 107
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9c107d8e1d8ce4ab92bda8bc9ac893
+      internalID: 10866347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf007fa92a740342b070c37471b62b3
+      internalID: 589923497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abda4fa4ace42064b9930b7b90625895
+      internalID: 525073774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a94398a858857428c226a63c92ddac
+      internalID: -828601605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef94ddc72b7a4c4da4e6ab64ad04891
+      internalID: 1056408500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dea0fc30ec989449eaaa71b9e9e602
+      internalID: 342601666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 107
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f57ac22fefbed4d8639a35da96678d
+      internalID: 1214711313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2212d4bcd75547a6dcb369a805e31
+      internalID: -1430135490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876573b1a31e58447879c03bccc3ba15
+      internalID: -349509547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45b7492fd6176446b77f53c5a4dc30c
+      internalID: 1213057357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781204703668f2f4cb4960f1b41410fe
+      internalID: 577047647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e96724ccf3c1314799f807f3a91bae9
+      internalID: 314628853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 107
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e74ba6c1945f1f4aa961d956575724a
+      internalID: 144420344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d383931ffa9d3424abdca1f96468d7ff
+      internalID: -1397554318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_16
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a6f93278e50bc4d8d97f7ff633e9ec
+      internalID: 856243272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21ffdf00bf5482418ba4e6ecd9814e9
+      internalID: -1907555576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_18
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 107
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260aa6437bb3e244eb00c7f6b2bac40e
+      internalID: -696324288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 107
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f699286e180af438e8657f5937a723
+      internalID: -1496029880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561603b48d88d4541b8805406f04d03b
+      internalID: 527966194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c9e2828e051254288b82cc84850ad0
+      internalID: 1510498108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 75
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69edc78b604c1e24e9fd5a3398001ce8
+      internalID: -1584454553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c612eac465731b4abcf9c4e0898e2d0
+      internalID: 1375581051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a43f9eb9c395cf4ea1e57730b88ae06
+      internalID: -1581892809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_25
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afb4e9601bbcd64c990055304578bbc
+      internalID: -603573262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9537becab47ce498d0f05fc7b22263
+      internalID: -841741376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_27
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e39ad8f0952b64faad31e4cdaa0539
+      internalID: 817974556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 75
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69f826346cae504e8703175a653fe36
+      internalID: -1071054508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_29
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fa7e20b253970438f2629cd8146c37
+      internalID: -712276594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6714a73ce5b944f86cf29e9797a7ae
+      internalID: 1025218864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_31
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ae7eb48180e734fa48f802869d82ca
+      internalID: 1093422691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_32
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b17532371208b94694f0e8d9763d66e
+      internalID: -1681069465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_33
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bccc3007aab52e4e8fcd3dd2dc74a43
+      internalID: -1930749132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_34
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 75
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dd8203cbb9eb9458c2035edbc8dbe9
+      internalID: 1676363336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_35
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37afaa58acd8e6541863f8dc821366e2
+      internalID: -1218717776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_36
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 75
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce57dd6d4589b04dab2f4709930aaac
+      internalID: -1582650022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_37
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e9975ca2276942955ab654d7c5303
+      internalID: 232936555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_38
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 75
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807646668cb91da43b288222795203ba
+      internalID: -640093088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_39
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 75
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d96480e86eff34881e39048c0fbfd4
+      internalID: -506562581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db4a8df31e076a42a972741cc91df01
+      internalID: -32288627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25ea4c170efef947909a2fc88e72e97
+      internalID: 334749706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 42
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7249779bba558d3488a739c5b0eaeaf5
+      internalID: -2048388045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_43
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e6a43ffcc2eed4a86fa210ac49f46b
+      internalID: -1070249512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e322e1a928cd7848ae1f5e43ccd0719
+      internalID: -2094678781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_45
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed36b557e2d57d41be31db6b6c5340c
+      internalID: -1337346954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_46
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf994feb4ef00c4b9e1e39f3865832a
+      internalID: -1294652882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f62e8d0414638a4482b358634d94f21
+      internalID: -1376534759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_48
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 42
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dfd70a7ae0d1549b0265d865392dd7
+      internalID: -1595581027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_49
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e63378035dd4448ad8f02ed80559df
+      internalID: 209560957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_50
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490b6cdd665720440bb37059bd34f0ad
+      internalID: 1028815257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_51
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2f985152b3c884f8a97bc8a71aa587
+      internalID: 465409932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_52
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e6365a9e10f6429cda826dc786d11
+      internalID: -1351993439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_53
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4245a06419f2d4da0ea75ba8a78ddf
+      internalID: -1157310850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_54
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 42
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8247fe98c7a3d46a7c50231be11342
+      internalID: 2016609911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_55
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a8bf6363327794bbc56f877ba4f182
+      internalID: 890591643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_56
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce8102e3ca716f46b88063986c22c38
+      internalID: 22199359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_57
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ce23788728a8b44abd47584380bc7c
+      internalID: 924624963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_58
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 42
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbd1a7d056f5f24aa30615d9634ee53
+      internalID: 663523405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_59
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b25ba1882b5894db4f1fae1571a3fb
+      internalID: 666811951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08bcbdd7b2c27a4faf94669defd0db1
+      internalID: -1872283358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_61
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3c56af51005744a910d169c91aaa63
+      internalID: -1963859652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_62
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 10
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8fa9375f459b94d8cec0a7c646bd5a
+      internalID: 1722516978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efc124ea799d47429168d57d5988327
+      internalID: -1887245667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_64
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53126fb36cd40304b876af2bc7e01165
+      internalID: -435662084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_65
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db25c27e6c95b864da3870f7aa8c4112
+      internalID: 71626700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_66
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b559ecf5de7a774aa84a8cb672f5609
+      internalID: -1691707444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_67
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5816a86f5a4044baa957dd80f93560
+      internalID: 2027657370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_68
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 10
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9a972b8d6ae484c85fe6dd79752891
+      internalID: -1567347544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_69
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294486d01a23b2348af982a591e9e6da
+      internalID: -1114168670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_70
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7347a4ecd6fef404f9498e4377b452a2
+      internalID: 922452042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_71
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eebe413c279a2b46a935315e4369a64
+      internalID: -798592921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_72
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d078c509934be0d4795dd639c402427f
+      internalID: -1676195753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_73
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf7b37c2b14ca4ca02a151a1eece34
+      internalID: 759699896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_74
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 10
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25a756ed6a67d340924b2ada4a6b814
+      internalID: -796077176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_75
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e781533335a90e47b92f48e20fb0298
+      internalID: -4193164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_76
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 10
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc6f9c61370e4147a023088ad07a2fa
+      internalID: -1316716306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_77
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f1a567cb349c7429a7c242d94e6576
+      internalID: 1687563460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_78
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 10
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2497fdb3edd275408242f136b2d2d0c
+      internalID: -1016329418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpiderIdle_79
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 10
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea345c8f70c3fa84b8670bc44dcd97b7
+      internalID: 149153354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DemonSpiderIdle_43: -1070249512
+      DemonSpiderIdle_72: -1676195753
+      DemonSpiderIdle_41: 334749706
+      DemonSpiderIdle_29: -712276594
+      DemonSpiderIdle_21: 1510498108
+      DemonSpiderIdle_12: 577047647
+      DemonSpiderIdle_69: -1114168670
+      DemonSpiderIdle_53: -1157310850
+      DemonSpiderIdle_61: -1963859652
+      DemonSpiderIdle_34: 1676363336
+      DemonSpiderIdle_44: -2094678781
+      DemonSpiderIdle_64: -435662084
+      DemonSpiderIdle_77: 1687563460
+      DemonSpiderIdle_79: 149153354
+      DemonSpiderIdle_8: 1214711313
+      DemonSpiderIdle_26: -841741376
+      DemonSpiderIdle_40: -32288627
+      DemonSpiderIdle_39: -506562581
+      DemonSpiderIdle_25: -603573262
+      DemonSpiderIdle_42: -2048388045
+      DemonSpiderIdle_74: -796077176
+      DemonSpiderIdle_57: 924624963
+      DemonSpiderIdle_80: -1222391259
+      DemonSpiderIdle_23: 1375581051
+      DemonSpiderIdle_7: 342601666
+      DemonSpiderIdle_24: -1581892809
+      DemonSpiderIdle_38: -640093088
+      DemonSpiderIdle_68: -1567347544
+      DemonSpiderIdle_28: -1071054508
+      DemonSpiderIdle_35: -1218717776
+      DemonSpiderIdle_13: 314628853
+      DemonSpiderIdle_9: -1430135490
+      DemonSpiderIdle_62: 1722516978
+      DemonSpiderIdle_19: -1496029880
+      DemonSpiderIdle_20: 527966194
+      DemonSpiderIdle_49: 209560957
+      DemonSpiderIdle_5: -828601605
+      DemonSpiderIdle_36: -1582650022
+      DemonSpiderIdle_46: -1294652882
+      DemonSpiderIdle_33: -1930749132
+      DemonSpiderIdle_27: 817974556
+      DemonSpiderIdle_59: 666811951
+      DemonSpiderIdle_4: 525073774
+      DemonSpiderIdle_60: -1872283358
+      DemonSpiderIdle_48: -1595581027
+      DemonSpiderIdle_52: -1351993439
+      DemonSpiderIdle_30: 1025218864
+      DemonSpiderIdle_56: 22199359
+      DemonSpiderIdle_78: -1016329418
+      DemonSpiderIdle_11: 1213057357
+      DemonSpiderIdle_16: 856243272
+      DemonSpiderIdle_50: 1028815257
+      DemonSpiderIdle_31: 1093422691
+      DemonSpiderIdle_10: -349509547
+      DemonSpiderIdle_58: 663523405
+      DemonSpiderIdle_1: -1894473051
+      DemonSpiderIdle_75: -4193164
+      DemonSpiderIdle_71: -798592921
+      DemonSpiderIdle_2: 10866347
+      DemonSpiderIdle_63: -1887245667
+      DemonSpiderIdle_17: -1907555576
+      DemonSpiderIdle_47: -1376534759
+      DemonSpiderIdle_15: -1397554318
+      DemonSpiderIdle_37: 232936555
+      DemonSpiderIdle_54: 2016609911
+      DemonSpiderIdle_55: 890591643
+      DemonSpiderIdle_67: 2027657370
+      DemonSpiderIdle_0: 140218084
+      DemonSpiderIdle_45: -1337346954
+      DemonSpiderIdle_73: 759699896
+      DemonSpiderIdle_6: 1056408500
+      DemonSpiderIdle_14: 144420344
+      DemonSpiderIdle_66: -1691707444
+      DemonSpiderIdle_22: -1584454553
+      DemonSpiderIdle_51: 465409932
+      DemonSpiderIdle_32: -1681069465
+      DemonSpiderIdle_76: -1316716306
+      DemonSpiderIdle_18: -696324288
+      DemonSpiderIdle_3: 589923497
+      DemonSpiderIdle_65: 71626700
+      DemonSpiderIdle_70: 922452042
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

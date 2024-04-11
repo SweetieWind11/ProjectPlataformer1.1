@@ -19,7 +19,7 @@ public class DanteMove1 : MonoBehaviour
     private Animator animator;
     //este accede al sprite renderer y al animador respectivamente permitiendonos controlar las animaciones a traves de condiciones (Booleanos)
     private int numLayer = 6;
-    public int lifePoints = 10;
+    private bool control = true;
     void Start()
     {
 
@@ -27,10 +27,13 @@ public class DanteMove1 : MonoBehaviour
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        Vector2 velocity = new Vector2(horizontal * movespeed, RB2D.velocity.y);
-        RB2D.velocity = velocity;
+        if (control)
+        {
+            Vector2 velocity = new Vector2(horizontal * movespeed, RB2D.velocity.y);
+            RB2D.velocity = velocity;
+        }
         //Esto nos da ´que tanto va a aumentar gracias a nuestra velocidad
-        if (DoubleJump < 2)
+        if (DoubleJump < 2 && control)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -39,12 +42,12 @@ public class DanteMove1 : MonoBehaviour
                 DoubleJump++;
             }
         }
-        if (horizontal < 0)
+        if (horizontal < 0 && control)
         {
             spriteRenderer.flipX = true;
             animator.SetBool("IsMoving", true);
         }
-        else if (horizontal > 0)
+        else if (horizontal > 0 && control)
         {
             spriteRenderer.flipX = false;
             animator.SetBool("IsMoving", true);
@@ -54,7 +57,7 @@ public class DanteMove1 : MonoBehaviour
             animator.SetBool("IsMoving", false);
         }
         //flip X funciona tal y como lo indica su nombre, rota a lo que seria el similar de X
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && control)
         {
 
             animator.SetBool("IsAttacking", true);
@@ -73,5 +76,12 @@ public class DanteMove1 : MonoBehaviour
     {
         animator.SetBool("IsAttacking", false);
     }
-
+    public void DissableControl()
+    {
+        control = false;
+    }
+    public void EnableControl()
+    {
+        control = true;
+    }
 }
