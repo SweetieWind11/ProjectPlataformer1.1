@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -15,11 +16,16 @@ public class PlayerManager : MonoBehaviour
     SpriteRenderer sprite;
     [SerializeField]
     private Transform respawnPosition;
-    public float healthTimerC = 0.5f;
+
     private DanteMove1 danteMove1;
     public float respawnTime = 3f;
     public int Lives = 3;
-
+    public TMP_Text vidas;
+    public float HealthPoints
+    {
+        get => healthPoints;
+        set => healthPoints = value;
+    }
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -29,15 +35,16 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
+        vidas.text = Lives.ToString();
         if (Input.GetKeyDown(KeyCode.R) && Lives <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+            GameManager.Instance.ChangeScene("Nivel1");
         }
         if(Lives <= 0)
         {
-            Debug.Log("Perdiste todas tus vidas, presiona R para reiniciar");
+            GameManager.Instance.IsGameLose = true;
         }
-        if (!isAlive && Lives >= 1)
+        if (!isAlive && Lives > 1)
         {
             respawnTime = respawnTime - Time.deltaTime;
             if (respawnTime <= 0)
@@ -46,6 +53,23 @@ public class PlayerManager : MonoBehaviour
                 isAlive = true;
                 RestartPlayer();
             }
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Heal")
+        {
+
+            if (HealthPoints < 9 && isAlive)
+            {
+                healthPoints += 1;
+            }
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "ExtraLife")
+        {
+            Lives++;
+            Destroy(collision.gameObject);
         }
     }
     private void OnCollisionStay2D(Collision2D collision)
@@ -62,23 +86,10 @@ public class PlayerManager : MonoBehaviour
                 if (healthPoints <= 0)
                 {
                     isAlive = false;
-                    Debug.Log("Perdiste");
                     playerLose();
                     danteMove1.DissableControl();
                 }
                 healthTimer = 0.5f;
-            }
-        }
-        if (collision.gameObject.tag == "Heal")
-        {
-            if (healthTimerC > 0)
-            {
-                healthTimerC -= Time.deltaTime;
-            }
-            else if (healthTimerC < 9 && isAlive) //Cambiar healthTimerC por HealthPoints
-            {
-                healthPoints += 1;
-                healthTimerC = 0.5f;
             }
         }
     }
@@ -87,14 +98,15 @@ public class PlayerManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "Win")
         {
-            Debug.Log("Ganaste");
+            GameManager.Instance.IsGameWin = true;
+
         }
+
     }
     private void playerLose()
     {
         sprite.color = Color.red;
         Lives = Lives - 1;
-        Debug.Log("-1 vida");
     }
     public void RestartPlayer()
     {

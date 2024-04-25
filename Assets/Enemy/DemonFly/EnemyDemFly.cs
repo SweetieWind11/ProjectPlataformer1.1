@@ -5,17 +5,21 @@ using UnityEngine;
 public class EnemyDemFly : MonoBehaviour
 {
 
-    private PointsManager pointsManager;
 
     public GameObject bulletPrefab;
     public float interval = 2f;
 
     private float timer = 0f;
 
+    private float timerUpDown = 0f;
+    private float moveSpeed = 2f; 
+    private float direction = 1f; 
+    private float switchTime = 0.75f; // Tiempo para alternar la dirección
+
+
+
     void Start()
     {
-        GameObject pointsManagerObject = GameObject.Find("PointsManager");
-        pointsManager = pointsManagerObject.GetComponent<PointsManager>();
     }
 
     // Update is called once per frame
@@ -28,6 +32,14 @@ public class EnemyDemFly : MonoBehaviour
             Instantiate(bulletPrefab, transform.position, Quaternion.identity);
             timer = 0f; // Reiniciar el temporizador
         }
+        timerUpDown += Time.deltaTime;
+        if (timerUpDown >= switchTime)
+        {
+            direction *= -1;
+            timerUpDown = 0f;
+        }
+        transform.Translate(Vector2.up * moveSpeed * direction * Time.deltaTime);
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -36,7 +48,7 @@ public class EnemyDemFly : MonoBehaviour
         {
             Destroy(this.gameObject);
             Debug.Log("Collision");
-            pointsManager.AddPoints(1);
+            PointsManager.instance.AddPoints(5);
         }
     }
 

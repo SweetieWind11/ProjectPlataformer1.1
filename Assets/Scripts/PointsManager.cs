@@ -15,6 +15,7 @@ public class PointsManager : MonoBehaviour
         if (instance != null && instance != this)
         {
             Destroy(this);
+            Destroy(gameObject);
         }
         else
         {

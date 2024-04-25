@@ -6,7 +6,26 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public PlayerManager player;
-    private GameManager Instance;
+    public static GameManager Instance;
+    public GameObject losePanel;
+    public GameObject winnPanel;
+
+
+    public GameObject plosePanel;
+    private bool isGameWin = false;
+    private bool isGameLose = false;
+
+    public bool IsGameWin
+    {
+        get => isGameWin;
+        set => isGameWin = value;
+    }
+
+    public bool IsGameLose
+    {
+        get => isGameLose;
+        set => isGameLose = value;
+    }
 
 
     private void Awake()
@@ -36,16 +55,11 @@ public class GameManager : MonoBehaviour
     public void ChangeScene(string name)
     {
         SceneManager.LoadScene(name);
+        Time.timeScale = 1;
+        isGameLose = false;
+        isGameWin = false;
     }
 
-    public void Pause()
-    {
-        Time.timeScale = 0;
-    }
-    public void Resume()
-    {
-        Time.timeScale = 1;
-    }
     public void Quit()
     {
         Application.Quit();
