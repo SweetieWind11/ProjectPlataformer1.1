@@ -459,7 +459,7 @@ TextureImporter:
         x: 0
         y: 786
         width: 51
-        height: 124
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,7 +480,7 @@ TextureImporter:
         x: 60
         y: 786
         width: 52
-        height: 123
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,7 +501,7 @@ TextureImporter:
         x: 120
         y: 788
         width: 65
-        height: 121
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -522,7 +522,7 @@ TextureImporter:
         x: 190
         y: 788
         width: 73
-        height: 121
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,7 +543,7 @@ TextureImporter:
         x: 270
         y: 788
         width: 66
-        height: 121
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,7 +564,7 @@ TextureImporter:
         x: 340
         y: 787
         width: 58
-        height: 122
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -585,7 +585,7 @@ TextureImporter:
         x: 400
         y: 786
         width: 54
-        height: 123
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,7 +606,7 @@ TextureImporter:
         x: 460
         y: 785
         width: 53
-        height: 124
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -627,7 +627,7 @@ TextureImporter:
         x: 520
         y: 786
         width: 57
-        height: 123
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,7 +648,7 @@ TextureImporter:
         x: 583
         y: 787
         width: 64
-        height: 122
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,7 +669,7 @@ TextureImporter:
         x: 650
         y: 786
         width: 57
-        height: 123
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,7 +690,7 @@ TextureImporter:
         x: 710
         y: 786
         width: 50
-        height: 123
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,7 +898,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 960
-        y: 440
+        y: 441
         width: 90
         height: 158
       alignment: 0
@@ -1026,9 +1026,9 @@ TextureImporter:
         x: 470
         y: 441
         width: 171
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 131
+      alignment: 9
+      pivot: {x: 0.33, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1047,9 +1047,9 @@ TextureImporter:
         x: 650
         y: 438
         width: 152
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 131
+      alignment: 9
+      pivot: {x: 0.33, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1068,9 +1068,9 @@ TextureImporter:
         x: 810
         y: 438
         width: 141
-        height: 115
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 131
+      alignment: 9
+      pivot: {x: 0.33, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1602,12 +1602,12 @@ TextureImporter:
       GunsIdle4: -2050207974
       DanteSpritesheet_16: -930672570
       GunsShoot1: -1152288506
-      DanteSpritesheet_62: 1877887837
-      Idle7: 1568890807
       DanteSpritesheet_17: 1673137999
+      DanteSpritesheet_18: -1717846964
+      DanteSpritesheet_62: 1877887837
       Idle13: 1374106120
       Attack3: -107404335
-      DanteSpritesheet_18: -1717846964
+      Idle7: 1568890807
       Walk5: 530535336
       DanteSpritesheet_35: -2013049560
       DanteSpritesheet_82: -1078729343

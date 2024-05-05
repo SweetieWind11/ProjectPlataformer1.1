@@ -38,5 +38,11 @@ public class EnemyDemSpider : MonoBehaviour
             PointsManager.instance.AddPoints(5);
             playerManager.healthLose(0.5f);
         }
+        if (collision.collider.CompareTag("Bullet"))
+        {
+            Destroy(this.gameObject);
+            Destroy(collision.gameObject);
+            PointsManager.instance.AddPoints(5);
+        }
     }
 }

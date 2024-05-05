@@ -50,6 +50,13 @@ public class EnemyDemFly : MonoBehaviour
             Debug.Log("Collision");
             PointsManager.instance.AddPoints(5);
         }
+        if (other.CompareTag("Bullet"))
+        {
+            Destroy(this.gameObject);
+            Destroy(other.gameObject);
+            PointsManager.instance.AddPoints(5);
+        }
     }
+
 
 }

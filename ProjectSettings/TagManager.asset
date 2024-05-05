@@ -9,6 +9,7 @@ TagManager:
   - Win
   - Enemy
   - ExtraLife
+  - Bullet
   layers:
   - Default
   - TransparentFX

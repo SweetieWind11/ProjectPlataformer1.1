@@ -17,6 +17,16 @@ public class DanteMove1 : MonoBehaviour
     private int numLayer = 6;
     private bool control = true;
     public bool gunTrigger;
+
+    [SerializeField]
+    private Transform shootPositionRight;
+    [SerializeField]
+    private Transform shootPositionLeft;
+    [SerializeField]
+    private GameObject bulletR;
+    [SerializeField]
+    private GameObject bulletL;
+
     void Start()
     {
         gunTrigger = false;
@@ -56,6 +66,10 @@ public class DanteMove1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z) && control)
         {
             animator.SetBool("IsAttacking", true);
+            if (gunTrigger)
+            {
+                shoot();
+            }
 
         }
         if (Input.GetKeyDown(KeyCode.X))
@@ -63,6 +77,8 @@ public class DanteMove1 : MonoBehaviour
             gunTrigger = !gunTrigger;
             animator.SetBool("GunTrigger", gunTrigger);
             animator.SetBool("GunTransition", true);
+            DissableControl();
+
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -80,6 +96,7 @@ public class DanteMove1 : MonoBehaviour
     public void GunTransitionEnd()
     {
         animator.SetBool("GunTransition", false);
+        EnableControl();
 
     }
     public void DissableControl()
@@ -89,5 +106,17 @@ public class DanteMove1 : MonoBehaviour
     public void EnableControl()
     {
         control = true;
+    }
+    private void shoot()
+    {
+        if (spriteRenderer.flipX)
+        {
+            Instantiate(bulletL, shootPositionLeft.transform.position, shootPositionLeft.transform.rotation);
+        }
+        else
+        {
+            Instantiate(bulletR, shootPositionRight.transform.position, shootPositionRight.transform.rotation);
+        }
+
     }
 }
