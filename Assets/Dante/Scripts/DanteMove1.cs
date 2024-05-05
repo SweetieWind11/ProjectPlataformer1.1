@@ -7,22 +7,19 @@ public class DanteMove1 : MonoBehaviour
 {
     [SerializeField]
     private Rigidbody2D RB2D;
-    //con esto accedemos al RigidBody para poder alterar las cordenadas, sumandole o restandole
     private float movespeed = 5;
-    //obviamente la velocidad de movimiento del personaje que por gusto propio lo dejo en privado
     private float JumpSpeed = 5;
     private float DoubleJump = 0;
-    //Un contador para tener un doble salto pero si nos deja a futuro lo puedo quitar
     [SerializeField]
     private SpriteRenderer spriteRenderer;
     [SerializeField]
     private Animator animator;
-    //este accede al sprite renderer y al animador respectivamente permitiendonos controlar las animaciones a traves de condiciones (Booleanos)
     private int numLayer = 6;
     private bool control = true;
+    public bool gunTrigger;
     void Start()
     {
-
+        gunTrigger = false;
     }
     void Update()
     {
@@ -56,13 +53,17 @@ public class DanteMove1 : MonoBehaviour
         {
             animator.SetBool("IsMoving", false);
         }
-        //flip X funciona tal y como lo indica su nombre, rota a lo que seria el similar de X
         if (Input.GetKeyDown(KeyCode.Z) && control)
         {
-
             animator.SetBool("IsAttacking", true);
+
         }
-        //Y este es un codigo incompleto para un ataque
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            gunTrigger = !gunTrigger;
+            animator.SetBool("GunTrigger", gunTrigger);
+            animator.SetBool("GunTransition", true);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -75,6 +76,11 @@ public class DanteMove1 : MonoBehaviour
     public void OnAttackAnimationEnd()
     {
         animator.SetBool("IsAttacking", false);
+    }
+    public void GunTransitionEnd()
+    {
+        animator.SetBool("GunTransition", false);
+
     }
     public void DissableControl()
     {
