@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.Tilemaps;
 
 public class DanteMove1 : MonoBehaviour
@@ -18,6 +19,9 @@ public class DanteMove1 : MonoBehaviour
     private bool control = true;
     public bool gunTrigger;
 
+    public GameObject attackRight;
+    public GameObject attackLeft;
+
     [SerializeField]
     private Transform shootPositionRight;
     [SerializeField]
@@ -30,6 +34,8 @@ public class DanteMove1 : MonoBehaviour
     void Start()
     {
         gunTrigger = false;
+        attackRight.SetActive(false);
+        attackLeft.SetActive(false);
     }
     void Update()
     {
@@ -119,4 +125,22 @@ public class DanteMove1 : MonoBehaviour
         }
 
     }
+    private void attackTest()
+    {
+        if (spriteRenderer.flipX)
+        {
+            attackLeft.SetActive(true);
+        }
+        else
+        {
+            attackRight.SetActive(true);
+        }
+    }
+    private void attackTestEnd()
+    {
+        attackLeft.SetActive(false);
+
+        attackRight.SetActive(false);
+    }
+
 }
