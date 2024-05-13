@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 412964317}
   - component: {fileID: 412964316}
   - component: {fileID: 412964318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2735849, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -318,6 +319,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffaf46de97372b3489394b322e828d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraToShakeName: 
 --- !u!1 &1909002601
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,6 +345,7 @@ GameObject:
   - component: {fileID: 1909002604}
   - component: {fileID: 1909002603}
   - component: {fileID: 1909002602}
+  - component: {fileID: 1909002607}
   m_Layer: 0
   m_Name: Vergil
   m_TagString: Player
@@ -472,6 +487,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1909002607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909002601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd75a4e57660f99469d020ba505aebb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RB2D: {fileID: 1909002605}
+  spriteRenderer: {fileID: 1909002603}
+  animator: {fileID: 1909002602}
+  ultimateOBJ: {fileID: 3353626751194489260, guid: e5fea13a8192b96448c2121e10b6cc8e, type: 3}
 --- !u!4 &2751518331020385304
 Transform:
   m_ObjectHideFlags: 0
@@ -740,7 +771,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2751518332365666725
 MonoBehaviour:
   m_ObjectHideFlags: 0
