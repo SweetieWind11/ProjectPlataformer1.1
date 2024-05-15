@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     private bool timerUp = false;
     [SerializeField]
     private TextMeshProUGUI textTimer;
+    public bool timerStart;
     public bool TimerUpGetSet
     {
         get => timerUp;
@@ -18,12 +19,15 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        if (timerTotal > 0 && !timerUp)
+        if (timerStart)
         {
-            timerTotal -= Time.deltaTime;
+            if (timerTotal > 0 && !timerUp)
+            {
+                timerTotal -= Time.deltaTime;
+            }
+            else
+                timerUp = true;
         }
-        else
-            timerUp = true;
         textTimer.text = TimerFormat();
     }
     private string TimerFormat()
@@ -38,5 +42,9 @@ public class Timer : MonoBehaviour
     public float ReturnTimer()
     {
         return timerTotal;
+    }
+    public void timerStartFunction()
+    {
+        timerStart = true;
     }
 }

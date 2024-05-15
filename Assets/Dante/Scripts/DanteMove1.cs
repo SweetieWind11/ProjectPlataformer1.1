@@ -94,6 +94,11 @@ public class DanteMove1 : MonoBehaviour
             animator.SetBool("IsJumping", false);
             DoubleJump = 0;
         }
+        if (collision.gameObject.layer == 6)
+        {
+            animator.SetBool("IsJumping", false);
+            DoubleJump = 0;
+        }   
     }
     public void OnAttackAnimationEnd()
     {
@@ -108,10 +113,12 @@ public class DanteMove1 : MonoBehaviour
     public void DissableControl()
     {
         control = false;
+        movespeed = 0;
     }
     public void EnableControl()
     {
         control = true;
+        movespeed = 5;
     }
     private void shoot()
     {

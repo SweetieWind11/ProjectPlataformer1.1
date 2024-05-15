@@ -16,11 +16,12 @@ public class PlayerManager : MonoBehaviour
     SpriteRenderer sprite;
     [SerializeField]
     private Transform respawnPosition;
-
     private DanteMove1 danteMove1;
+    private VergilMovement vergilMove;
     public float respawnTime = 3f;
     public int Lives = 3;
     public TMP_Text vidas;
+    public CharacterSelector characterselector;
     public float HealthPoints
     {
         get => healthPoints;
@@ -30,6 +31,7 @@ public class PlayerManager : MonoBehaviour
     {
         sprite = GetComponent<SpriteRenderer>();
         danteMove1 = GetComponent<DanteMove1>();
+        vergilMove = GetComponent<VergilMovement>();
     }
 
 
@@ -44,7 +46,7 @@ public class PlayerManager : MonoBehaviour
         {
             GameManager.Instance.IsGameLose = true;
         }
-        if (!isAlive && Lives > 1)
+        if (!isAlive && Lives >= 1)
         {
             respawnTime = respawnTime - Time.deltaTime;
             if (respawnTime <= 0)
@@ -87,7 +89,14 @@ public class PlayerManager : MonoBehaviour
                 {
                     isAlive = false;
                     playerLose();
-                    danteMove1.DissableControl();
+                    if (characterselector.isDante)
+                    {
+                        danteMove1.DissableControl();
+                    }
+                    else if (characterselector.isVergil)
+                    {
+                        vergilMove.DissableControl();
+                    }
                 }
                 healthTimer = 0.5f;
             }
@@ -114,7 +123,14 @@ public class PlayerManager : MonoBehaviour
         sprite.color = Color.white;
         healthPoints = 10;
         isAlive = true;
-        danteMove1.EnableControl();
+        if (characterselector.isDante)
+        {
+            danteMove1.EnableControl();
+        }
+        else if (characterselector.isVergil)
+        {
+            vergilMove.EnableControl();
+        }
     }
     public void healthLose(float healthToLose)
     {

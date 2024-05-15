@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: c3b33188fda52a9439b83a16ce874e84
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 51
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a42dba3bddf3645980e3ce8d36bd1c
+      internalID: -785517119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 5
+        width: 50
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a2442cb6549734bb05eb620850cba6
+      internalID: 299601098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5
+        width: 51
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6573ae461317c3845bdd9084dea3b81c
+      internalID: 1346807411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 4
+        width: 54
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c18904e9096b434e9ca5f88bb993ff5
+      internalID: 2095948588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 4
+        width: 55
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488aba2aaae3ae84e814fa746f4cc600
+      internalID: 53079454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 5
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c5eeb347efa0344abba0d5098e1410
+      internalID: -2036484983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 4
+        width: 57
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7846b5fe2a11394db6e86478ad64441
+      internalID: -1196052043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4
+        width: 57
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca34734a4583cb49b1c09b354440060
+      internalID: -1534034211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 5
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eac4130a679e04ea1988b31d240162
+      internalID: 49777289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 4
+        width: 56
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8a649f1ddcc014587049d5d560a1e7
+      internalID: 2105371233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4
+        width: 55
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f873e4ebc7bd88a438cd00a268f89c82
+      internalID: -1719019402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4
+        width: 54
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d85f2dbb55a8a745a701bb3118d16dd
+      internalID: 920868374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 4
+        width: 52
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2246ec9b7ded0243b0c67e909496fd2
+      internalID: 2034070431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 3
+        width: 51
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6629180dc22e709469fe25787f67d6ad
+      internalID: 350629355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 3
+        width: 51
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff03ccba4df72f4ebd2f8f4abe90f29
+      internalID: -1174263025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 4
+        width: 51
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c755878280d5da14cb9f2aef8a8ad728
+      internalID: 1891691136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 5
+        width: 51
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15538a4ef3dd08c4b9f657a0c7dfba37
+      internalID: -1352372271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 5
+        width: 50
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fed8ce06c89004fa7ec0e84b8e4b83
+      internalID: -1159403662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 5
+        width: 50
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df4ef76d617f2e4a844233a23896ea8
+      internalID: 177444613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 5
+        width: 51
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2913b11ff363bf5429c0708609692ba8
+      internalID: -1768047241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 5
+        width: 51
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c36af252168b7c4da5e333c1cb72ce1
+      internalID: -1797567175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteSelectionSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 5
+        width: 52
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b1553d1774fa846b58df402c029624
+      internalID: -964693064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DanteSelectionSpritesheet_11: 920868374
+      DanteSelectionSpritesheet_1: 299601098
+      DanteSelectionSpritesheet_7: -1534034211
+      DanteSelectionSpritesheet_2: 1346807411
+      DanteSelectionSpritesheet_10: -1719019402
+      DanteSelectionSpritesheet_8: 49777289
+      DanteSelectionSpritesheet_12: 2034070431
+      DanteSelectionSpritesheet_14: -1174263025
+      DanteSelectionSpritesheet_0: -785517119
+      DanteSelectionSpritesheet_13: 350629355
+      DanteSelectionSpritesheet_6: -1196052043
+      DanteSelectionSpritesheet_20: -1797567175
+      DanteSelectionSpritesheet_18: 177444613
+      DanteSelectionSpritesheet_15: 1891691136
+      DanteSelectionSpritesheet_3: 2095948588
+      DanteSelectionSpritesheet_4: 53079454
+      DanteSelectionSpritesheet_21: -964693064
+      DanteSelectionSpritesheet_16: -1352372271
+      DanteSelectionSpritesheet_19: -1768047241
+      DanteSelectionSpritesheet_9: 2105371233
+      DanteSelectionSpritesheet_5: -2036484983
+      DanteSelectionSpritesheet_17: -1159403662
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

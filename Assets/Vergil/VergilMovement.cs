@@ -15,7 +15,7 @@ public class VergilMovement : MonoBehaviour
     private Animator animator;
     private int GroundLayer = 6;
     private bool control = true;
-    private float UltCharge = 0;
+    public float UltCharge = 0;
     private bool UltimateReady = false;
     public GameObject ultimateOBJ;
     void Start()
@@ -24,7 +24,7 @@ public class VergilMovement : MonoBehaviour
     }
     void Update()
     {
-        if (UltCharge < 1)
+        if (UltCharge < 50)
         {
             UltCharge += Time.deltaTime;
         }
@@ -32,18 +32,18 @@ public class VergilMovement : MonoBehaviour
         {
             UltimateReady = true;
         }
-        float horizontal = Input.GetAxisRaw("HorizontalNumeric");
+        float horizontal = Input.GetAxisRaw("Horizontal");
         if (control)
         {
             Vector2 velocity = new Vector2(horizontal * movespeed, RB2D.velocity.y);
             RB2D.velocity = velocity;
         }
-        //Esto nos da ´que tanto va a aumentar gracias a nuestra velocidad
         if (DoubleJump < 2 && control)
         {
-            if (Input.GetKeyDown(KeyCode.I))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 RB2D.AddForce(Vector2.up * JumpSpeed, ForceMode2D.Impulse);
+                animator.SetBool("IsJumping", true);
                 DoubleJump++;
             }
         }
@@ -64,12 +64,12 @@ public class VergilMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q) && control)
         {
             animator.SetBool("IsAttacking", true);
-            control = false;
+            DissableControl();
         }
-        if (Input.GetKeyDown(KeyCode.E) && UltimateReady)
+        if (Input.GetKeyDown(KeyCode.E) && UltimateReady && animator.GetBool("IsJumping") == false)
         {
             animator.SetBool("Ultimate", true);
-            control = false;
+            DissableControl();
         }
 
     }
@@ -80,31 +80,40 @@ public class VergilMovement : MonoBehaviour
             animator.SetBool("IsJumping", false);
             DoubleJump = 0;
         }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == GroundLayer)
+        if (collision.gameObject.layer == 6)
         {
-            animator.SetBool("IsJumping", true);
+            animator.SetBool("IsJumping", false);
             DoubleJump = 0;
         }
     }
+
     private void VergilAttackEnd()
     {
         animator.SetBool("IsAttacking", false);
-        control = true;
+        EnableControl();
     }
     private void VergilUltimateEnd()
     {
         animator.SetBool("Ultimate", false);
-        control = true;
+        EnableControl();
+        CameraTarget.Instance.shakeCamera(30f, 2);
         UltCharge = 0;
     }
     private void ultimateTurn()
     {
         GameObject ultimateObject = Instantiate(ultimateOBJ);
         Destroy(ultimateObject, 2f);
-        CameraController.Instance.StartShake(.5f);
+        UltimateReady = false;
+    }
+    public void DissableControl()
+    {
+        control = false;
+        movespeed = 0;
+    }
+    public void EnableControl()
+    {
+        control = true;
+        movespeed = 5;
     }
 
 }

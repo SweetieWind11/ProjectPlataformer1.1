@@ -1,0 +1,805 @@
+fileFormatVersion: 2
+guid: 22578eb5f7e6ae749a728770928eed92
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 512
+        width: 79
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e184a67eec72f468e237ce01be6ca0
+      internalID: -1528808034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 513
+        width: 78
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b576c93a7b52044a37dc89049e06a1
+      internalID: -856356652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 512
+        width: 80
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74f310d4fdfc2547ab6019eef8876db
+      internalID: 1123272845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 513
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467fa97753ea37746a81e82aea40fc12
+      internalID: -876807647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 514
+        width: 63
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058ced7ff699c174a8ba3e0067a8583b
+      internalID: 825209811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 514
+        width: 60
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedaa774a2387714c828fb31b8c39e23
+      internalID: 1008163233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 515
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d0c0f5488e5354abdb446f4cfd3996
+      internalID: 391536601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 387
+        width: 60
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d6f02ee916c204cae9fb5ff5a1e267
+      internalID: -561900438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 387
+        width: 60
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e5bff2c93d90d418a043a4dbd2c305
+      internalID: 104921992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 388
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d61606548d290a4099a247f395f9915
+      internalID: 1291385672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 261
+        width: 60
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8da54de2cb3bf847bfb742eb7e3d358
+      internalID: -1945584637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 261
+        width: 62
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1104f128489b124ca4a605d9aa32c06
+      internalID: 1762418767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 262
+        width: 61
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2f117db1c87e74187fff72033b879e
+      internalID: 1219234674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 262
+        width: 60
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55ad9a58ffa75478d122c663024092
+      internalID: -232468091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 262
+        width: 60
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faf1ab9556b6c54cab01c410af40e13
+      internalID: 1985237665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 262
+        width: 59
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1133044b155add4f9e80a72ae589f2e
+      internalID: 1575939912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 262
+        width: 59
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0facd47c2486e4ab7cd2bd619922f7
+      internalID: -1663777496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 261
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3489d5a830e916f45b519cc8f2e89c83
+      internalID: -169116670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 134
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be44924aaa7ad364db0a09511f0c2e69
+      internalID: -703489539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 136
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79701399035c83c47b7121ed78ffd888
+      internalID: -640206641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 136
+        width: 57
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f358b1755d35a949876756c7f3f3024
+      internalID: 631625106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 136
+        width: 56
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9861114d8fef7574b9fae28a84c9c95a
+      internalID: -1491251518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 137
+        width: 56
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a90af69218b6b45acdd429453613a5
+      internalID: -1928502993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 136
+        width: 57
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea09ad764a8e5948b221799d09b240a
+      internalID: -856300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 135
+        width: 60
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd47853904bdba498974fbff52a5a21
+      internalID: 1738468857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 132
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff79114e08d6f047a387c7c0b1a11da
+      internalID: -40373726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 63
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e2c2fa41f5af0408e18760a02d0a97
+      internalID: -1131034088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5
+        width: 61
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1bb72ae9c18c34cbd810c8c09227ed
+      internalID: 362089081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 4
+        width: 63
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dec9b544a60144ab19c1b1956898c7
+      internalID: -759450616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3
+        width: 70
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8963aa85d141f2439d2f8aedab7c23c
+      internalID: 11803936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VergilSelectionSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 10
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccbcf358bbaa6545bc52c5a7a164b8a
+      internalID: 347342135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VergilSelectionSpritesheet_30: 347342135
+      VergilSelectionSpritesheet_17: -169116670
+      VergilSelectionSpritesheet_9: 1291385672
+      VergilSelectionSpritesheet_21: -1491251518
+      VergilSelectionSpritesheet_15: 1575939912
+      VergilSelectionSpritesheet_2: 1123272845
+      VergilSelectionSpritesheet_5: 1008163233
+      VergilSelectionSpritesheet_8: 104921992
+      VergilSelectionSpritesheet_10: -1945584637
+      VergilSelectionSpritesheet_26: -1131034088
+      VergilSelectionSpritesheet_18: -703489539
+      VergilSelectionSpritesheet_11: 1762418767
+      VergilSelectionSpritesheet_29: 11803936
+      VergilSelectionSpritesheet_7: -561900438
+      VergilSelectionSpritesheet_16: -1663777496
+      VergilSelectionSpritesheet_14: 1985237665
+      VergilSelectionSpritesheet_6: 391536601
+      VergilSelectionSpritesheet_25: -40373726
+      VergilSelectionSpritesheet_28: -759450616
+      VergilSelectionSpritesheet_4: 825209811
+      VergilSelectionSpritesheet_0: -1528808034
+      VergilSelectionSpritesheet_12: 1219234674
+      VergilSelectionSpritesheet_24: 1738468857
+      VergilSelectionSpritesheet_22: -1928502993
+      VergilSelectionSpritesheet_13: -232468091
+      VergilSelectionSpritesheet_27: 362089081
+      VergilSelectionSpritesheet_20: 631625106
+      VergilSelectionSpritesheet_23: -856300216
+      VergilSelectionSpritesheet_1: -856356652
+      VergilSelectionSpritesheet_19: -640206641
+      VergilSelectionSpritesheet_3: -876807647
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
