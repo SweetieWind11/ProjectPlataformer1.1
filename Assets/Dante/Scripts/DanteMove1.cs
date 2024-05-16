@@ -72,7 +72,7 @@ public class DanteMove1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z) && control)
         {
             animator.SetBool("IsAttacking", true);
-            if (gunTrigger)
+            if (gunTrigger && animator.GetBool("IsJumping") == false)
             {
                 shoot();
             }
@@ -89,16 +89,11 @@ public class DanteMove1 : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == numLayer)
+        if (collision.gameObject.layer == numLayer || collision.gameObject.layer == 7)
         {
             animator.SetBool("IsJumping", false);
             DoubleJump = 0;
         }
-        if (collision.gameObject.layer == 6)
-        {
-            animator.SetBool("IsJumping", false);
-            DoubleJump = 0;
-        }   
     }
     public void OnAttackAnimationEnd()
     {

@@ -64,7 +64,7 @@ public class PlayerManager : MonoBehaviour
 
             if (HealthPoints < 9 && isAlive)
             {
-                healthPoints += 1;
+                healthPoints += 2;
             }
             Destroy(collision.gameObject);
         }
@@ -135,5 +135,19 @@ public class PlayerManager : MonoBehaviour
     public void healthLose(float healthToLose)
     {
         healthPoints -= healthToLose;
+    }
+    public void fallInVoid()
+    {
+        isAlive = false;
+        Lives--;
+        if (characterselector.isDante)
+        {
+            danteMove1.DissableControl();
+        }
+        else if (characterselector.isVergil)
+        {
+            vergilMove.DissableControl();
+        }
+
     }
 }

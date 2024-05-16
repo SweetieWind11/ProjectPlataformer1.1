@@ -46,15 +46,18 @@ public class PauseMenu : MonoBehaviour
     public void restart()
     {
         Time.timeScale = 1;
-        GameManager.Instance.ChangeScene("Nivel1");
         GameManager.Instance.IsGameLose = false;
+        GameManager.Instance.ChangeScene("Nivel1");
     }
     public void mainMenu()
     {
         Time.timeScale = 1;
         GameManager.Instance.ChangeScene("Menu");
     }
-    
+    public void exitButton()
+    {
+        Application.Quit();
+    }
 }
 
 

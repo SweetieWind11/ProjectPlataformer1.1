@@ -18,9 +18,18 @@ public class VergilMovement : MonoBehaviour
     public float UltCharge = 0;
     private bool UltimateReady = false;
     public GameObject ultimateOBJ;
+
+    public GameObject attackRight;
+    public GameObject attackLeft;
+    public GameObject jumpAttackR;
+    public GameObject jumpAttackL;
+
     void Start()
     {
-
+        attackLeft.SetActive(false);
+        attackRight.SetActive(false);
+        jumpAttackL.SetActive(false);
+        jumpAttackR.SetActive(false);
     }
     void Update()
     {
@@ -61,12 +70,11 @@ public class VergilMovement : MonoBehaviour
         {
             animator.SetBool("IsMoving", false);
         }
-        if (Input.GetKeyDown(KeyCode.Q) && control)
+        if (Input.GetKeyDown(KeyCode.Z) && control)
         {
             animator.SetBool("IsAttacking", true);
-            DissableControl();
         }
-        if (Input.GetKeyDown(KeyCode.E) && UltimateReady && animator.GetBool("IsJumping") == false)
+        if (Input.GetKeyDown(KeyCode.X) && UltimateReady && animator.GetBool("IsJumping") == false)
         {
             animator.SetBool("Ultimate", true);
             DissableControl();
@@ -75,12 +83,7 @@ public class VergilMovement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == GroundLayer)
-        {
-            animator.SetBool("IsJumping", false);
-            DoubleJump = 0;
-        }
-        if (collision.gameObject.layer == 6)
+        if (collision.gameObject.layer == GroundLayer || collision.gameObject.layer == 7)
         {
             animator.SetBool("IsJumping", false);
             DoubleJump = 0;
@@ -101,7 +104,7 @@ public class VergilMovement : MonoBehaviour
     }
     private void ultimateTurn()
     {
-        GameObject ultimateObject = Instantiate(ultimateOBJ);
+        GameObject ultimateObject = Instantiate(ultimateOBJ, transform.position, transform.rotation);
         Destroy(ultimateObject, 2f);
         UltimateReady = false;
     }
@@ -109,6 +112,36 @@ public class VergilMovement : MonoBehaviour
     {
         control = false;
         movespeed = 0;
+    }
+    public void attack1()
+    {
+        if (spriteRenderer.flipX)
+        {
+            attackLeft.SetActive(true);
+        }
+        else
+        {
+            attackRight.SetActive(true);
+        }
+    }
+    public void JumpAttack()
+    {
+        if (spriteRenderer.flipX)
+        {
+            jumpAttackL.SetActive(true);
+        }
+        else
+        {
+            jumpAttackR.SetActive(true);
+        }
+    }
+    public void attackEnd()
+    {
+        attackLeft.SetActive(false);
+        attackRight.SetActive(false);
+        jumpAttackL.SetActive(false);
+        jumpAttackR.SetActive(false);
+
     }
     public void EnableControl()
     {

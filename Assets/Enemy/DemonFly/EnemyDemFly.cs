@@ -15,6 +15,7 @@ public class EnemyDemFly : MonoBehaviour
     private float moveSpeed = 2f; 
     private float direction = 1f; 
     private float switchTime = 0.75f; // Tiempo para alternar la dirección
+    private PlayerManager playerManager;
 
 
 
@@ -46,8 +47,10 @@ public class EnemyDemFly : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            GameObject player = GameObject.FindWithTag("Player");
+            playerManager = player.GetComponent<PlayerManager>();
             Destroy(this.gameObject);
-            Debug.Log("Collision");
+            playerManager.healthLose(0.1f);
             PointsManager.instance.AddPoints(5);
         }
         if (other.CompareTag("Bullet"))
@@ -55,6 +58,16 @@ public class EnemyDemFly : MonoBehaviour
             Destroy(this.gameObject);
             Destroy(other.gameObject);
             PointsManager.instance.AddPoints(5);
+        }
+        if (other.gameObject.tag == "Attack")
+        {
+            Destroy(this.gameObject);
+            PointsManager.instance.AddPoints(6);
+        }
+        if (other.gameObject.tag == "VergilUltimate")
+        {
+            Destroy(this.gameObject);
+            PointsManager.instance.AddPoints(10);
         }
     }
 

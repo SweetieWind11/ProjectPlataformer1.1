@@ -8,8 +8,7 @@ public class DemFlyBullet : MonoBehaviour
 
     void Start()
     {
-        GameObject player = GameObject.FindWithTag("Player");
-        playerManager = player.GetComponent<PlayerManager>();
+
         Destroy(this.gameObject, 2f);
     }
 
@@ -22,6 +21,8 @@ public class DemFlyBullet : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            GameObject player = GameObject.FindWithTag("Player");
+            playerManager = player.GetComponent<PlayerManager>();
             Destroy(this.gameObject);
             playerManager.healthLose(1f);
         }

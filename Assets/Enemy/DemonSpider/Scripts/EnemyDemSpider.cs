@@ -15,12 +15,12 @@ public class EnemyDemSpider : MonoBehaviour
 
     void Start()
     {
-        GameObject player = GameObject.FindWithTag("Player");
-        playerManager = player.GetComponent<PlayerManager>();
+
     }
 
     void Update()
     {
+
         timer += Time.deltaTime;
         if (timer >= switchTime)
         {
@@ -34,6 +34,8 @@ public class EnemyDemSpider : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            GameObject player = GameObject.FindWithTag("Player");
+            playerManager = player.GetComponent<PlayerManager>();
             Destroy(this.gameObject);
             PointsManager.instance.AddPoints(5);
             playerManager.healthLose(0.5f);
@@ -43,6 +45,19 @@ public class EnemyDemSpider : MonoBehaviour
             Destroy(this.gameObject);
             Destroy(collision.gameObject);
             PointsManager.instance.AddPoints(5);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Attack")
+        {
+            Destroy(this.gameObject);
+            PointsManager.instance.AddPoints(6);
+        }
+        if (collision.gameObject.tag == "VergilUltimate")
+        {
+            Destroy(this.gameObject);
+            PointsManager.instance.AddPoints(10);
         }
     }
 }

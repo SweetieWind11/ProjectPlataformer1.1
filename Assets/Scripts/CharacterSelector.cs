@@ -24,6 +24,8 @@ public class CharacterSelector : MonoBehaviour
     public bool isDante = false;
     public bool isVergil = false;
 
+    public GameObject startBarriers;
+
 
     void Start()
     {
@@ -49,6 +51,7 @@ public class CharacterSelector : MonoBehaviour
         durationAnimation = 2f;
         Animationstart = true;
         isVergil = true;
+        startBarriers.SetActive(false);
     }
     public void SelectDanteButton()
     {
@@ -59,6 +62,7 @@ public class CharacterSelector : MonoBehaviour
         durationAnimation = 2f;
         Animationstart = true;
         isDante = true;
+        startBarriers.SetActive(false);
     }
     public void onAnimationEnd()
     {
