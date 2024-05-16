@@ -5,13 +5,9 @@ using UnityEngine;
 
 public class BrickBehavior : MonoBehaviour
 {
-    public Transform cameraController;
-    public string cameraToShakeName;
-
+    private PlayerManager playerManager;
     void Start()
     {
-        GameObject mainCameraOBJ = GameObject.Find(cameraToShakeName);
-        cameraController = mainCameraOBJ.transform;
     }
 
     // Update is called once per frame
@@ -22,9 +18,18 @@ public class BrickBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Ground"))
+        if (collision.gameObject.layer == 6)
         {
             CameraTarget.Instance.shakeCamera(5, 1);
+            Destroy(this.gameObject);
+
+        }
+        if (collision.CompareTag("Player"))
+        {
+            GameObject player = GameObject.FindWithTag("Player");
+            playerManager = player.GetComponent<PlayerManager>();
+            Destroy(this.gameObject);
+            playerManager.healthLose(1f);
         }
     }
 }

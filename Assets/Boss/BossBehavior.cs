@@ -5,36 +5,52 @@ using UnityEngine;
 public class BossBehavior : MonoBehaviour
 {
     public GameObject Bullet;
-    public float TimerAttack;
-    public float spawnDistance, speed;
+    private float TimerAttack =5f;
+    private float spawnDistance = 5f, speed = 10f;
     private float delaytimeAttack = 0f;
-    public float attack2Timer = 5f;
+    private float attack2Timer = 7f;
     public Animator bossAnimation;
     public GameObject brick;
+    private float attack3Timer = 10f;
 
-    private float bossLife = 100f;
+    public GameObject squarePrefab;
+    private float squareSpeed = 5f;
 
     private Transform player;
+    private PlayerManager playerManager;
 
-    void Start()
-    {
+    public float bossLife = 100f;
 
-    }
 
     // Update is called once per frame
     void Update()
     {
+        if (bossLife <= 0)
+        {
+            GameManager.Instance.IsGameWin = true;
+            Destroy(this.gameObject);
+        }
         TimerAttack = TimerAttack - Time.deltaTime;
         if (TimerAttack <= 0)
         {
-            }
-        attack2Timer -= Time.deltaTime;
-        if (attack2Timer <= 0)
-        {
-            bossAnimation.SetTrigger("attack2");
-            attack2Timer = 5f;
+            bossAnimation.SetBool("Attack1", true);
         }
-
+        if (bossLife <= 60)
+        {
+            attack2Timer -= Time.deltaTime;
+            if (attack2Timer <= 0)
+            {
+                bossAnimation.SetBool("Attack2", true);
+            }
+        }
+        if (bossLife <= 30)
+        {
+            attack3Timer -= Time.deltaTime;
+            if (attack3Timer <= 0)
+            {
+                bossAnimation.SetBool("Attack3", true);
+            }
+        }
     }
     Vector2 Arc(float Q)
     {
@@ -56,16 +72,47 @@ public class BossBehavior : MonoBehaviour
             delaytimeAttack = delaytimeAttack + .05f;
         }
         delaytimeAttack = 0f;
-        TimerAttack = 1.5f;
-
+    }
+    private void attack1End()
+    {
+        bossAnimation.SetBool("Attack1", false);
+        TimerAttack = 5f;
     }
     private void Attack2()
     {
-        float x = Random.Range(9f, -9f);
-        Instantiate(brick, new Vector2(x, 6), Quaternion.identity);
+        GameObject projectile = Instantiate(squarePrefab, transform.position, Quaternion.identity);
+        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+        rb.velocity = Vector2.right * squareSpeed;
+    }
+    private void attack2End()
+    {
+        bossAnimation.SetBool("Attack2", false);
+        attack2Timer = 7f;
+    }
+    private void Attack3()
+    {
+        float x = Random.Range(-3f, 20f);
+        Instantiate(brick, new Vector2(x, 9), Quaternion.identity);
+    }
+    private void attack3End()
+    {
+        bossAnimation.SetBool("Attack3", false);
+        attack3Timer = 10f;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.tag == "Attack")
+        {
+            bossLife -= 5;
+        }
+        if (collision.gameObject.tag == "VergilUltimate")
+        {
+            bossLife -= 50;
+        }
+        if (collision.gameObject.tag == "Bullet")
+        {
+            Destroy(collision.gameObject);
+            bossLife -= .5f;
+        }
     }
 }

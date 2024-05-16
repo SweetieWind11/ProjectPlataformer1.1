@@ -9,6 +9,8 @@ public class OrbBehavior : MonoBehaviour
     private float time;
     private bool fired;
     public Vector2 orbDirectionV;
+    private PlayerManager playerManager;
+
     private void FixedUpdate()
     {
         if (time >= delayTime && !fired)
@@ -26,8 +28,19 @@ public class OrbBehavior : MonoBehaviour
         {
 
         }
-        else
-        Destroy(gameObject);
+        else if (collision.gameObject.layer == 6)
+        {
+            CameraTarget.Instance.shakeCamera(1, .5f);
+            Destroy(this.gameObject);
+
+        }
+        else if (collision.CompareTag("Player"))
+        {
+            GameObject player = GameObject.FindWithTag("Player");
+            playerManager = player.GetComponent<PlayerManager>();
+            Destroy(this.gameObject);
+            playerManager.healthLose(1f);
+        }
     }
 
 
