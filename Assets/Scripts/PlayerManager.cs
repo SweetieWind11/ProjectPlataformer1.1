@@ -22,6 +22,7 @@ public class PlayerManager : MonoBehaviour
     public int Lives = 3;
     public TMP_Text vidas;
     public CharacterSelector characterselector;
+    private int waitForRespawn = 1;
     public float HealthPoints
     {
         get => healthPoints;
@@ -42,7 +43,7 @@ public class PlayerManager : MonoBehaviour
         {
             GameManager.Instance.ChangeScene("Nivel1");
         }
-        if(Lives <= 0)
+        if (Lives <= 0)
         {
             GameManager.Instance.IsGameLose = true;
         }
@@ -55,6 +56,20 @@ public class PlayerManager : MonoBehaviour
                 isAlive = true;
                 RestartPlayer();
             }
+        }
+        if (healthPoints <= 0 && waitForRespawn == 1)
+        {
+            isAlive = false;
+            playerLose();
+            if (characterselector.isDante)
+            {
+                danteMove1.DissableControl();
+            }
+            else if (characterselector.isVergil)
+            {
+                vergilMove.DissableControl();
+            }
+            waitForRespawn = 0;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -131,6 +146,8 @@ public class PlayerManager : MonoBehaviour
         {
             vergilMove.EnableControl();
         }
+        waitForRespawn = 1;
+
     }
     public void healthLose(float healthToLose)
     {

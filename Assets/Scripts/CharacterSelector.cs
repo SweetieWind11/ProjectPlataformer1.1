@@ -29,6 +29,9 @@ public class CharacterSelector : MonoBehaviour
 
     void Start()
     {
+        AudioManager.instance.PlayFontSong();
+        AudioManager.instance.StopMenuSong();
+
         Time.timeScale = 1f;
     }
     void Update()
@@ -52,6 +55,8 @@ public class CharacterSelector : MonoBehaviour
         Animationstart = true;
         isVergil = true;
         startBarriers.SetActive(false);
+        AudioManager.instance.PlayFontSong();
+
     }
     public void SelectDanteButton()
     {
@@ -63,6 +68,8 @@ public class CharacterSelector : MonoBehaviour
         Animationstart = true;
         isDante = true;
         startBarriers.SetActive(false);
+        AudioManager.instance.PlayFontSong();
+
     }
     public void onAnimationEnd()
     {

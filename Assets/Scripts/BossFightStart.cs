@@ -8,7 +8,7 @@ public class BossFightStart : MonoBehaviour
     public GameObject bossbar;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "player")
+        if(collision.gameObject.tag == "Player")
         {
             boss.SetActive(true);
             bossbar.SetActive(true);
